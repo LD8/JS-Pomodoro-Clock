@@ -1,0 +1,57 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(6, 202, 237);
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    width: 70vw;
+    color: white;
+    //background-color: rgba(0, 255, 30, 0.247);
+    text-align: center;
+    .title {
+      margin: 1vw;
+      font-size: 4vw;
+      flex: 0;
+    }
+  }
+}
+
+section.ajustPanel {
+  flex-grow: 1;
+  display: flex;
+  .inc-dec {
+    margin: 3vh;
+  }
+}
+
+section.timerControl {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin: 1vh;
+  flex: 1;
+  .timer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 20vh;
+    width: 50vw;
+    border: 4px solid rgb(137, 255, 247);
+    border-radius: 3em;
+    margin: 5vh;
+  }
+}
+
+h1 {
+  margin: 5px;
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
+}
